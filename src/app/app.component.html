@@ -1,0 +1,21 @@
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <ul class="nav navbar-nav">
+            <li>
+                <a [routerLink]="['/create']" routerLinkActive="router-link-active">
+Add price
+</a>
+            </li>
+            <li>
+                <a [routerLink]="index">
+        Display all the prices. 
+    </a>
+            </li>
+
+        </ul>
+    </div>
+</nav>
+
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
